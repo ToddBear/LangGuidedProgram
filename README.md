@@ -30,15 +30,30 @@ Data
 └── original_programs
 ```
 
-Download the pre-computed future link for training the adjacency constraint moduel
+Download the pre-computed future link for training the adjacency constraint moduel, and place it in Data folder:
 
+```
+Data
+└── future_link.pkl
+```
 
+## Training
 
-### Download pre-trained weight
+Run the following scrips:
 
+```bash
+cd LangGuidedProgram/src
+sh train.sh
+```
 
+## Testing
 
-## Training & Testing
+Download the pre-trained weights, put it into the LangGuidedProgram/output folder, and run test.sh:
+
+```bash
+cd LangGuidedProgram/src
+sh test.sh
+```
 
 If you find the code useful in your research, please consider citing:
 
@@ -52,3 +67,7 @@ If you find the code useful in your research, please consider citing:
   year={2023}
 }
 ```
+
+## Acknowledgments
+
+Our project is build upoon [VirtualHome](https://github.com/xavierpuigf/virtualhome_unity) and [ResActGraph](https://github.com/andrewliao11/env-aware-program-gen). Thanks for your great constributions!
