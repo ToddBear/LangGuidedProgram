@@ -1,0 +1,16 @@
+imageio==2.5.0
+joblib==0.13.2
+numpy==1.16.2
+Pillow==5.4.1
+pkg-resources==0.0.0
+protobuf==3.7.0
+six==1.12.0
+tensorboardX==1.6
+termcolor==1.1.0
+torch==1.13.0+cu116
+tqdm==4.31.1
+nltk==4.3
+accelerate==0.18.0
+transformers==4.27.4
+peft==0.2.0
+openpyxl==3.0.10
