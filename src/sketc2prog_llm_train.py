@@ -91,12 +91,12 @@ def train(
                 results, loss = run_one_iteration(model, optim, scheduler, batch_data, train_args, args, dset, pool)
                 lr = optim.state_dict()['param_groups'][0]['lr']
                 view_process(iter, args.train_iters, loss, lr)
-                if iter % 250 == 0:
+                if iter % 500 == 0:
                     args.checkpoint = '{}/desc2program-{}.ckpt'.format(checkpoint_dir, iter)
                     results = test(args, model.module, test_loader, checkpoint_dir, word=False)
                     f1 = results['total_f1']
                     save(args, -2, checkpoint_dir, model.module)
-                    save(args, -3, checkpoint_dir, model.module)
+                    save(args, iter, checkpoint_dir, model.module)
                     results_prefix = '{}/testing_results-desc2program-now'.format(checkpoint_dir)
                     json.dump(results, open('{}.json'.format(results_prefix), 'w'))
                     if f1 >= best_f1:
