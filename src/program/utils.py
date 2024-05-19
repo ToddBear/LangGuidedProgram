@@ -604,7 +604,7 @@ def save(args, i, checkpoint_dir, model):
         save_path = '{}/desc2program-best.ckpt'.format(checkpoint_dir)
     elif i == -2:
         save_path = '{}/desc2program-now.ckpt'.format(checkpoint_dir)
-    elif i == -3:
+    else:
         save_path = '{}/desc2program-{}.ckpt'.format(checkpoint_dir, i)
     model.save(save_path, True)
 
