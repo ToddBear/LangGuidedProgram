@@ -7,6 +7,14 @@ Source codes of SIGGRAPH Asia 2023 Paper : "Scene-aware Activity Program Generat
 
 ### Create a conda environment
 
+We use two virtual environments in our project. The configuration of the virtual environment are:
+
+- Python 3.11
+- cuda 11.3
+- Pytorch 1.13.0
+
+You can create it using the following scripts:
+
 ```bash
 conda create -n LVHomeEnv python=3.11
 conda activate LVHomeEnv
