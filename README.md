@@ -65,10 +65,6 @@ cd LangGuidedProgram/src
 sh test.sh
 ```
 
-## License
-
-Our code is released under MIT License. See LICENSE file for details.
-
 ## Citation
 
 If you find the code useful in your research, please consider citing:
@@ -87,3 +83,7 @@ If you find the code useful in your research, please consider citing:
 ## Acknowledgments
 
 Our project is build upon [VirtualHome](https://github.com/xavierpuigf/virtualhome_unity) and [ResActGraph](https://github.com/andrewliao11/env-aware-program-gen). Thanks for your great constributions!
+
+## License
+
+Our code is released under MIT License. See LICENSE file for details.
