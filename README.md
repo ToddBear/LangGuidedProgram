@@ -65,6 +65,12 @@ cd LangGuidedProgram/src
 sh test.sh
 ```
 
+## License
+
+Our code is released under MIT License. See LICENSE file for details.
+
+## Citation
+
 If you find the code useful in your research, please consider citing:
 
 ```
