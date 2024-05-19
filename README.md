@@ -41,7 +41,7 @@ Data
 
 ## Training
 
-Run the following scrips:
+Run the following scripts:
 
 ```bash
 cd LangGuidedProgram/src
@@ -50,7 +50,7 @@ sh train.sh
 
 ## Testing
 
-Download the pre-trained weights, put it into the LangGuidedProgram/output folder, and run test.sh:
+Download the pre-trained weights, put it into the LangGuidedProgram/output folder, and run the following scripts:
 
 ```bash
 cd LangGuidedProgram/src
