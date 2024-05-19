@@ -49,7 +49,7 @@ Data
 
 ## Training
 
-Run the following scripts:
+Run the following scripts for training:
 
 ```bash
 cd LangGuidedProgram/src
