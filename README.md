@@ -66,7 +66,7 @@ sh train.sh
 
 ## Testing
 
-Download the pre-trained weights [here](), put it into the `LangGuidedProgram/src/output` folder, and run the following scripts:
+Download the pre-trained weights [here](https://drive.google.com/file/d/1JMEpH81oJaR3sYM5zcR08H_Gx3I6r88h/view?usp=drive_link), put it into the `LangGuidedProgram/src/output` folder, and run the following scripts:
 
 ```bash
 cd LangGuidedProgram/src
