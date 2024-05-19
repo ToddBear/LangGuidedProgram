@@ -40,7 +40,7 @@ Data
 └── original_programs
 ```
 
-Download the pre-computed future link for training the adjacency constraint moduel, and place it in Data folder:
+Download the pre-computed future link [here]() for training the adjacency constraint moduel, and place it in Data folder:
 
 ```
 Data
@@ -58,7 +58,7 @@ sh train.sh
 
 ## Testing
 
-Download the pre-trained weights, put it into the LangGuidedProgram/output folder, and run the following scripts:
+Download the pre-trained weights [here](), put it into the LangGuidedProgram/output folder, and run the following scripts:
 
 ```bash
 cd LangGuidedProgram/src
@@ -80,4 +80,4 @@ If you find the code useful in your research, please consider citing:
 
 ## Acknowledgments
 
-Our project is build upoon [VirtualHome](https://github.com/xavierpuigf/virtualhome_unity) and [ResActGraph](https://github.com/andrewliao11/env-aware-program-gen). Thanks for your great constributions!
+Our project is build upon [VirtualHome](https://github.com/xavierpuigf/virtualhome_unity) and [ResActGraph](https://github.com/andrewliao11/env-aware-program-gen). Thanks for your great constributions!
