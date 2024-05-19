@@ -13,7 +13,7 @@ cd LangGuidedProgram
 pip install -r requirements.txt
 ```
 
-### Data
+### Data Preparation
 
 ```bash
 cd ..
