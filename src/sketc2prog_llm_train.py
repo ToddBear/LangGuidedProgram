@@ -167,7 +167,7 @@ def main():
 
     # loading pre-computed future link relationship
     import pickle as pkl
-    with open("./output.pkl", 'rb') as f:
+    with open("../../Data/future_link.pkl", 'rb') as f:
         gt_link_collector = pkl.load(f)
     model.module.set_gt_link(gt_link_collector)
 
