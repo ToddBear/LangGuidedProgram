@@ -25,12 +25,10 @@ cur_dir = os.path.dirname(os.path.realpath(__file__))
 dataset_dir = os.path.join(cur_dir, '../../dataset/VirtualHome-Env/')
 resource_dir = os.path.join(cur_dir, '../../dataset/VirtualHome-Env/resources/')
 
-# program_path = dataset_dir + 'original_programs/executable_programs/*/*/*txt'
-# augment_program_path = dataset_dir + 'augment_programs/*/executable_programs/*/*/*/*txt'
-program_path = "/mnt/d/fuzzy/Data/original_programs/executable_programs/*/*/*txt"
-augment_program_path = "/mnt/d/fuzzy/Data/augment_programs/*/executable_programs/*/*/*/*txt"
-# sketch_path = dataset_dir + 'sketch_annotation.json'
-sketch_path = "/mnt/d/fuzzy/LangGuidedProg/dataset/VirtualHome-Env/sketch_annotation.json"
+PARENT_PATH = ""
+program_path = PARENT_PATH + "/Data/original_programs/executable_programs/*/*/*txt"
+augment_program_path = PARENT_PATH + "/Data/augment_programs/*/executable_programs/*/*/*/*txt"
+sketch_path = PARENT_PATH + "/LangGuidedProgram/dataset/VirtualHome-Env/sketch_annotation.json"
 glove_embedding_path = resource_dir + 'glove_embedding.npz'
 
 kb_file = resource_dir + 'knowledge_base.npz'

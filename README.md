@@ -47,6 +47,14 @@ Data
 └── future_link.pkl
 ```
 
+Fill in `LangGuidedProgram/program/dataset.py` line 28 with the absolute path to the parent folder `PARENT_PATH` of `LangGuidedProgram`.
+```
+PARENT_PATH = ""
+program_path = PARENT_PATH + "/Data/original_programs/executable_programs/*/*/*txt"
+augment_program_path = PARENT_PATH + "/Data/augment_programs/*/executable_programs/*/*/*/*txt"
+sketch_path = PARENT_PATH + "/LangGuidedProgram/dataset/VirtualHome-Env/sketch_annotation.json"
+```
+
 ## Training
 
 Run the following scripts for training:
